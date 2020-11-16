@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <style>
+        /*
+            * - универсальный селектор
+            p - селектор по тегу (выделяет все элементы <p></p>)
+
+        */
+        * {
+            color: orangered;
+        }
+        h1 {color: forestgreen} 
+        p {
+            color: blueviolet; /* #ab00ff */
+            text-indent: 25px;
+        } 
+        h3 {
+            color: azure;
+        }
+        /* 
+            # - селектор по идентификатору (атрибут id)
+        */
+        #special {
+            font-size: 40px;
+            text-shadow: 0 0 5px red;
+        }
+        .txt_green {
+            color: springgreen;
+            text-shadow: 0 0 5px darkgreen;
+        }
+        .bg_lime {
+            background-color: rgb(124, 204, 228);
+        }
+    </style>
+</head>
+<body>
+    <!-- h1>lorem3 -->
+    <!-- h1+p -->
+    <!-- (h1>lorem2)+p>lorem5 -->
+    <!-- h1>lorem2^p>lorem5 -->
+    <!-- p*3>lorem10 -->
+    <!-- h1>lorem3^p*3>lorem100 -->
+    <h1>Lorem, ipsum dolor.</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta aperiam molestiae dolorem velit eligendi commodi numquam iste dignissimos magni, quas voluptatem laboriosam ea tempore pariatur laudantium libero fuga debitis deleniti nihil quod iusto unde. <span class="txt_green bg_lime">Fuga corrupti iste esse, hic laborum soluta distinctio vitae ea veniam quos veritatis eum dolorem magni, nobis inventore alias.</span> Ab asperiores, minima ducimus expedita inventore doloremque maxime. Expedita vitae error consectetur nulla earum, repudiandae possimus quidem quas quisquam obcaecati, aliquid architecto cum dolor adipisci minus aut ab similique quo. Totam, velit. Quas commodi ducimus temporibus, aliquid quaerat magni voluptatibus dolores harum laborum assumenda quidem consectetur?</p>
+    <h3 class="txt_green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, illum.</h3>
+    <p id="special">Reiciendis, enim porro omnis voluptate qui perspiciatis nulla ipsum cupiditate, iusto debitis nihil aperiam atque. Veritatis ratione accusamus voluptatum eos nihil deleniti expedita. Cumque, in. Dolorum omnis ut dolore quos nam! Dolorum consectetur laborum accusantium esse. Recusandae animi corrupti architecto ipsam! Ea dolorum perspiciatis odio eaque possimus sapiente. Ex quasi laudantium deserunt autem reprehenderit eveniet dicta sed voluptate ullam perferendis quae, minus eaque nulla ratione pariatur sapiente corrupti minima possimus deleniti veritatis est modi porro mollitia! Illo aperiam a excepturi est minima nisi ipsum explicabo maxime voluptatibus? Voluptates repudiandae iusto cupiditate minima debitis mollitia, consequuntur, molestias tempore eveniet, rem facere.</p>
+    <p class="bg_lime">Esse maxime nulla neque tempore quis eaque beatae ipsam porro eos temporibus recusandae architecto ut, voluptatibus voluptate, amet pariatur cum, laboriosam enim tenetur quidem ullam! Voluptates error facere nisi labore ducimus sed odit porro adipisci, repudiandae deleniti. Quasi aspernatur eveniet dolor, assumenda ipsum quas quaerat sequi, est eos facere soluta obcaecati nisi beatae laborum sunt! Rerum repellendus sapiente fugiat accusantium amet dolorum quibusdam molestias eveniet enim. Sapiente aspernatur perferendis non labore veritatis ipsam, itaque fuga nesciunt exercitationem distinctio nostrum quae et, ad, delectus recusandae ullam provident necessitatibus beatae mollitia porro nobis veniam unde fugit deleniti! Beatae accusamus molestiae expedita labore!</p>
+
+</body>
+</html>
